@@ -30,7 +30,6 @@ header a img[name="gotohome"] {
     height: 45px; /* Logo height */
     width: auto; /* Maintain aspect ratio */
     align-items: center;
-    align-items: center;
     margin-top: 50px;
     margin-bottom: 50px;
   }
@@ -39,15 +38,31 @@ header a img[name="gotohome"] {
     padding: 0;
     background-color: #fff;
     max-width: 600px;
+    max-width: 900px;
     margin: auto;
 }
 #headerp{
     font-size: 30px;
     font-weight:200;
     color: rgb(96, 206, 169);
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
-.twoparagraphs{
-
+.twoparagraphs {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    gap:40px;
+    padding: 20px; /* Add padding to the paragraphs for better spacing */
+    box-sizing: border-box; /* Ensure padding does not affect width */
+}
 }
 
+.p1, .p2 {
+   text-align: left;
+   padding:10px;
+}
+
+/* @media (max-width: 768px) {
+    .twoparagraphs {
+        flex-direction: column;
+        align-items: flex-start; */
