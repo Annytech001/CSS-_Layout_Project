@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  header {
+    background-color:white;
+    padding: 20px; /* Some padding for better spacing */
+    display: flex; /* Flexbox for layout */
+    justify-content:space-around; /* Space between elements */
+    align-items: center; /* Center items vertically */
+  }
+  /* Style the logo */
+header a img[name="gotohome"] {
+    height: 60px; /* Logo height */
+    width: auto; /* Maintain aspect ratio */
+    align-items: center;
+}
+.navtools a {
+    color: rgb(105, 123, 114); /* White text color */
+    text-decoration:none; /* Remove underline */
+    font-size: 17px; /* Increase font size */
+    transition: color 0.3s ease; /* Smooth transition for hover effect */
+    justify-content: space-between;
+    list-style: none;
+    margin: 0 7px;
+  }
+  #headerlogo{
+    height: 30px; /* Logo height */
+    width: auto; /* Maintain aspect ratio */
+    align-items: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .leadsection {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    max-width: 600px;
+    margin: auto;
+}
+#headerp{
+    font-size: 20px;
+    font-weight:900;
+    color: rgb(96, 206, 169);
+}
+.twoparagraphs{
+
+}
+
