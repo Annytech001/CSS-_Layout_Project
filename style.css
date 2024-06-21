@@ -13,7 +13,7 @@
   }
   /* Style the logo */
 header a img[name="gotohome"] {
-    height: 60px; /* Logo height */
+    height: 35px; /* Logo height */
     width: auto; /* Maintain aspect ratio */
     align-items: center;
 }
@@ -27,7 +27,7 @@ header a img[name="gotohome"] {
     margin: 0 7px;
   }
   #headerlogo{
-    height: 30px; /* Logo height */
+    height: 45px; /* Logo height */
     width: auto; /* Maintain aspect ratio */
     align-items: center;
     align-items: center;
@@ -36,15 +36,16 @@ header a img[name="gotohome"] {
   }
   .leadsection {
     text-align: center;
-    padding: 20px;
+    padding: 0;
     background-color: #fff;
     max-width: 600px;
     margin: auto;
 }
 #headerp{
-    font-size: 20px;
-    font-weight:900;
+    font-size: 30px;
+    font-weight:200;
     color: rgb(96, 206, 169);
+    margin-bottom: 50px;
 }
 .twoparagraphs{
 
