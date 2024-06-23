@@ -83,6 +83,7 @@
 .img-patient{
   color: white
 }
+
 .for1, .for2, .for3 {
   display: flex;
   flex-direction: column;
@@ -98,4 +99,53 @@
   align-items: center;
   text-align: center;
   margin-bottom: 20px;
+}
+img {
+  max-width: 50px;
+  margin-bottom: 10px;
+}
+
+p {
+  margin: 5px 0;
+}
+
+#select1, #select2 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+#select1 select, #select2 select, #select3 select {
+  width: 80%;
+  padding: 5px;
+  margin: 5px 0;
+}
+
+#select3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+#select3 select {
+  width: 80%;
+  padding: 5px;
+  margin: 5px 0;
+}
+
+.section3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+#section3title {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
 }
