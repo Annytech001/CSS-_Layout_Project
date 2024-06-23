@@ -6,32 +6,45 @@
 
   header {
     background-color:white;
-    padding: 20px; /* Some padding for better spacing */
-    display: flex; /* Flexbox for layout */
-    justify-content:space-around; /* Space between elements */
-    align-items: center; /* Center items vertically */
+    padding: 20px; 
+    display: flex; 
+    justify-content:space-around; 
+    align-items: center;
   }
   /* Style the logo */
-header a img[name="gotohome"] {
-    height: 35px; /* Logo height */
-    width: auto; /* Maintain aspect ratio */
-    align-items: center;
-}
-.navtools a {
-    color: rgb(105, 123, 114); /* White text color */
-    text-decoration:none; /* Remove underline */
-    font-size: 17px; /* Increase font size */
-    transition: color 0.3s ease; /* Smooth transition for hover effect */
-    justify-content: space-between;
-    list-style: none;
-    margin: 0 7px;
+  header a img[name="gotohome"] {
+    width: 250px;  /* Adjust the width as needed */
+    height: auto;  /* Maintain aspect ratio */
   }
+
+  .navtools {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 20px;         /* Padding around the nav items */
+  }
+  
+  .navtools a {
+    text-decoration: none;        /* Remove underline from links */
+    color: #8e8e8e;                  /* Default text color */
+    font-size: 16px;              /* Font size */
+    font-weight: 500;             /* Font weight */
+    margin: 0 15px;               /* Spacing between links */
+    padding: 5px 10px;            /* Padding around links */
+    transition: color 0.3s ease, background-color 0.3s ease; /* Smooth transition for color changes */
+  }
+  
+  .navtools a#About {
+    color: rgb(96, 206, 169);    /* Specific color for the About link */
+  }
+  
+  
   #headerlogo{
-    height: 45px; /* Logo height */
+    height: 40px; /* Logo height */
     width: auto; /* Maintain aspect ratio */
     align-items: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 40px;
+    margin-bottom: 40px;
   }
   .leadsection {
     text-align: center;
@@ -43,15 +56,17 @@ header a img[name="gotohome"] {
 }
 #headerp{
     font-size: 30px;
-    font-weight:200;
+    font-weight:100;
     color: rgb(96, 206, 169);
     margin-bottom: 20px;
+    font-family:'Times New Roman', Times, serif
 }
 .twoparagraphs {
     display: flex;
     justify-content: space-between;
     align-items:center;
     gap:40px;
+    font-size: 15px;
     padding: 20px; /* Add padding to the paragraphs for better spacing */
     box-sizing: border-box; /* Ensure padding does not affect width */
 
