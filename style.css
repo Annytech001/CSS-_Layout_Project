@@ -70,10 +70,11 @@
     padding: 20px; /* Add padding to the paragraphs for better spacing */
     box-sizing: border-box; /* Ensure padding does not affect width */
 
-.p1, .p2 {
+/*.p1, .p2 {
    text-align: left;
    padding:10px;
 }
+   */
 }
 .forsection{
   display: flex;
@@ -88,10 +89,13 @@
   padding: 10px;
   border-radius: 8px;
   width: 30%;
-  height: 250px;
+  margin-bottom: 70px;
 }
 .for1{
   background-color: rgb(55, 218, 164);
+  height: 345px;
+  
+ 
 }
 .for2{
   background-color: rgb(18, 106, 220);
@@ -103,8 +107,44 @@
   color: white;
   font-size: 35px;
   justify-content: left;
+  margin-left: 20px;
   font-family: Arial, Helvetica, sans-serif;
+}
+.for2 .pg1{
+  color: white;
+  font-size: 35px;
+  justify-content: left;
+  margin-left: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.for3 .pg1{
+  color: white;
+  font-size: 35px;
+  justify-content: left;
+  margin-left: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.for1 .pg2{
+  color: white;
+  font-size: 20px;
+  align-self: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 20px;
+}
+.for2 .pg2{
+  color: white;
+  font-size: 20px;
+  align-self: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 20px;
+}
 
+.for3 .pg2{
+  color: white;
+  font-size: 20px;
+  align-self: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 20px;
 }
 
 #main1, #main2, #main3 {
@@ -117,28 +157,34 @@
   margin-bottom: 10px;
   background-color: transparent;
 }
-
-p {
-  margin: 5px 0;
-}
-
-#select1, #select2 {
+#select1{
   width: 100%;
-  display: flex;
   justify-content: center;
+  flex-direction: column;
+  background-color: rgb(55, 218, 164);
+}
+  
+#select2{
+  width: 100%;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgb(18, 106, 220);
+
 }
 
+/*
 #select1 select, #select2 select, #select3 select {
-  width: 80%;
+  width: 80px;
   padding: 5px;
-  margin: 5px 0;
+  margin: 5px;
 }
-
+*/
 #select3 {
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 100%;
+  background-color: black;
 }
 
 #select3 select {
